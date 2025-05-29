@@ -1,7 +1,7 @@
 # Survivor: Teacher's notes
 
 **Topic focus**
-: a) Survival; The environment; Travel
+: Survival; The environment; Travel
 
 **Grammar / Functional focus**
 : Conditional structures (1^st^, 2^nd^ and 3^rd^ conditional);
