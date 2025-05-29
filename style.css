@@ -1,0 +1,62 @@
+/* stylesheet */
+
+body {
+    width: auto;
+    max-height: max-content;
+    border: 4px groove #D2691E;
+    background-color: #CD853F;
+}
+
+img {
+    width: auto;
+    min-height: 500px;
+    border: 4px inset #B8860B;
+}
+
+main {
+    width: auto;
+    height: max-content;
+    border: 4px outset #DAA520;
+}
+
+section {
+    display:none;
+    padding: 20px;
+    min-height: 800px;;
+}
+
+.button, #objects {
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #D2691E;
+    color: #FFD700;
+    width: 400px;
+}
+
+.center {
+    text-align: center;
+}
+
+li {
+    list-style-position: inside;
+    list-style-type: square;
+    margin: 5px;
+}
+
+div.center {
+    display: flex;
+    justify-content: center;
+}
+
+div.right {
+    display: flex;
+    justify-content: end;
+}
+
+
+/*
+#D2691E chocolate
+#CD853F peru
+#DAA520 Golden rod
+#B8860B dark golden rod
+*/
