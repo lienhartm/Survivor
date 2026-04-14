@@ -1,5 +1,7 @@
 # Survivor: Teacher's notes
 
+![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=lienhartm&layout=compact)
+
 **Topic focus**
 : Survival; The environment; Travel
 
