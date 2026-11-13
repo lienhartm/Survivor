@@ -1,5 +1,8 @@
 # Survivor: Teacher's notes
 
+**Ressource**
+: Document : [Jeu Survivor PDF](jeu SURVIVOR.pdf)
+
 **Topic focus**
 : Survival; The environment; Travel
 
