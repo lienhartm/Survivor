@@ -310,4 +310,10 @@ flowchart
 : d) a botanist
 : e) access to the internet
 12. Could you have eaten insects or worms if you had been really hungry?
-13. There have been many books written and films made about survival on a desert island. Why do you think this theme is so popular? Do you think the reality would really be like the fiction?# Survivor
+13. There have been many books written and films made about survival on a desert island. Why do you think this theme is so popular? Do you think the reality would really be like the fiction?
+
+---
+
+<div align="center">
+  <sub>© 2026–2027 — Michael Lienhart | <a href="https://lienhartm.github.io/lm/">WebSite LM</a></sub>
+</div>
