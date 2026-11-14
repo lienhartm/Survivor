@@ -8,9 +8,11 @@ body {
 }
 
 img {
-    width: auto;
-    min-height: 500px;
-    border: 4px inset #B8860B;
+  width: 50%;
+  min-height: 500px;
+  border: 4px inset #B8860B;
+  float: right;
+  margin-left: 25px;
 }
 
 main {
