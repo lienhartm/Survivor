@@ -19,8 +19,9 @@ function live(lives) {
 		// display the game over screen
 		display(35);
 	}
+	document.getElementById('lives').innerHTML = "";
     let heart = "";
-	for (let i = 0; i <= lives; i++) {
+	for (let i = 0; i < lives; i++) {
 		heart += "❤️";
 	}
 	heart.replaceAll(""," ");
