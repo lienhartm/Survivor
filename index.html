@@ -18,12 +18,12 @@
 
 			<section>
 				<div>
-				<img src="./images/card-intro.jpg">
-				<h1>Survivor</h1>
-				<p>Welcome to the game of <b>Survivor</b>!<br>In this game, you will be faced with a series of challenges and decisions that will test your survival skills. You will need to think carefully about each choice you make, as they will determine your fate on the desert island.</p>
-				<p>Read carefully. It explains the situation you are in. Your aim is to get away from the desert island safely. You will face lots of problems and dangers.<br>At every stage, with every decision, you must think carefully if you want to survive. It won't be easy! Good luck.</p>
-				<p>To play, simply click on the options provided at each stage of the game. Your decisions will lead you through various scenarios, and you will need to adapt to the challenges that arise.</p>
-				<p>Remember, your goal is to survive and find a way off the island. Good luck!</p>
+					<img src="./images/card-intro.jpg">
+					<h1>Survivor</h1>
+					<p>Welcome to the game of <b>Survivor</b>!<br>In this game, you will be faced with a series of challenges and decisions that will test your survival skills. You will need to think carefully about each choice you make, as they will determine your fate on the desert island.</p>
+					<p>Read carefully. It explains the situation you are in. Your aim is to get away from the desert island safely. You will face lots of problems and dangers.<br>At every stage, with every decision, you must think carefully if you want to survive. It won't be easy! Good luck.</p>
+					<p>To play, simply click on the options provided at each stage of the game. Your decisions will lead you through various scenarios, and you will need to adapt to the challenges that arise.</p>
+					<p>Remember, your goal is to survive and find a way off the island. Good luck!</p>
 				</div>
 				<div class="center">
 					<!-- Play game -->
@@ -34,18 +34,22 @@
 			<!-- card 1 -->
 			
 			<section>
-				<p>Your plane has just crashed on a coral reef 500m from a small desert island in the Pacific Ocean. It is 3:00pm in the afternoon. There are only three of you who have survived the crash.<br>The plane is slowly sinking under the water and you must has a lighter, and a small waterproff moneybag to put it in. On the plane you find the following useful items:</p>
-				<!-- click to add in to do list -->
-				<ul>
-					<li onclick="add(0)" class="button">an axe</li>
-					<li onclick="add(1)" class="button">1 kg of airline food</li>
-					<li onclick="add(2)" class="button">a 20cm knife</li>
-					<li onclick="add(3)" class="button">a small first aid kit</li>
-					<li onclick="add(4)" class="button">1 litre of drinking water (in a plastic container)</li>
-					<li onclick="add(5)" class="button">a handgun with three bullets</li>
-					<li onclick="add(6)" class="button">1 litre of petrol (in a plastic container)</li>
-				</ul>
-				<p>You can take three with you to the island. You have five minutes to decide which three items you will take. Think carefully! Write the ones you decide to take here:</p>
+				<div>
+					<img src="./images/card-1.jpg">
+					<p>Your plane has just crashed on a coral reef 500m from a small desert island in the Pacific Ocean. It is 3:00pm in the afternoon. There are only three of you who have survived the crash.<br>The plane is slowly sinking under the water and you must has a lighter, and a small waterproff moneybag to put it in. On the plane you find the following useful items:</p>
+					<!-- click to add in to do list -->
+					<ul>
+						<li onclick="add(0)" class="button">an axe</li>
+						<li onclick="add(1)" class="button">1 kg of airline food</li>
+						<li onclick="add(2)" class="button">a 20cm knife</li>
+						<li onclick="add(3)" class="button">a small first aid kit</li>
+						<li onclick="add(4)" class="button">1 litre of drinking water (in a plastic container)</li>
+						<li onclick="add(5)" class="button">a handgun with three bullets</li>
+						<li onclick="add(6)" class="button">1 litre of petrol (in a plastic container)</li>
+					</ul>
+				</div>
+				<p>You can take three with you to the island. You have five minutes to decide which three items you will take. Think carefully! Write the ones you decide to take here:
+				<br><i>Click a object to remove it !</i></p>
 				<ul id="objects">
 				<!-- to do list click to remove -->
 				</ul>
@@ -62,258 +66,315 @@
 			<!-- card 2 -->
 
 			<section>
-				<p>You have just arrrived on a beach on the island. All of you survived the swim, but you are very tired, hungry and thirsty. It is 4:30pm. It will be dark in 1/2 hours.<br>You have three choices:</p>
-				<ul>
-					<!-- Go to card 4 -->
-					<li onclick="coconut()" class="button">Go into the forest to look for mangoes and coconuts among the trees.</li>
-					<!-- Go to card 21 -->
-					<li onclick="fish()" class="button">Try fishing next to the beach. There are lots of fish in the water.</li>
-					<!-- Go to card 16 -->
-					<li onclick="display(16)" class="button">Go left along the beach to look for water.</li>
-				</ul>
-				<p><i><b>What do you have with you? What is most important to you now?</b></i></p>	
+				<div>
+					<img src="./images/card-2.jpg">
+					<p>You have just arrrived on a beach on the island. All of you survived the swim, but you are very tired, hungry and thirsty. It is 4:30pm. It will be dark in 1/2 hours.<br>You have three choices:</p>
+					<ul>
+						<!-- Go to card 4 -->
+						<li onclick="coconut()" class="button">Go into the forest to look for mangoes and coconuts among the trees.</li>
+						<!-- Go to card 21 -->
+						<li onclick="fish()" class="button">Try fishing next to the beach. There are lots of fish in the water.</li>
+						<!-- Go to card 16 -->
+						<li onclick="display(16)" class="button">Go left along the beach to look for water.</li>
+					</ul>
+					<p><i><b>What do you have with you? What is most important to you now?</b></i></p>
+				</div>
 			</section>
 			
 		<!-- card 3 -->
 		
 			<section>
-				<p>You stay together at the top of the hills for two hours. Unfortunately, no ships or planes are seen. What's more, there's no food or water up there.</p>
-				<p>Unnoticed, one of you falls asleep with dehydration and rapidly drops into a fever. Do you have the first aid kit?</p>
-				<ul>
-					<!-- You lose one team member -->
-					<p>No. You lose one team member.</p>
-					<!-- Cross the first aid kit off your list -->
-					<p>Yes. You find some aspirin and antibiotics. S/he survies.</p>
-					<p>You must now climb down the hill, but which way?</p>
-					<!-- Go to card 24 -->
-					<li onclick="display(24)" class="button">Climb down the hill, but which way?</li>
-					<!-- Go to card 33 -->
-					<li onclick="display(33)" class="button">Climb down the hill towards the mango forest to look for food.</li>
-				</ul>
+				<div>
+					<img src="./images/card-3.jpg">
+					<p>You stay together at the top of the hills for two hours. Unfortunately, no ships or planes are seen. What's more, there's no food or water up there.</p>
+					<p>Unnoticed, one of you falls asleep with dehydration and rapidly drops into a fever. Do you have the first aid kit?</p>
+					<ul>
+						<!-- You lose one team member -->
+						<p>No. You lose one team member.</p>
+						<!-- Cross the first aid kit off your list -->
+						<p>Yes. You find some aspirin and antibiotics. S/he survies.</p>
+						<p>You must now climb down the hill, but which way?</p>
+						<!-- Go to card 24 -->
+						<li onclick="display(24)" class="button">Climb down the hill, but which way?</li>
+						<!-- Go to card 33 -->
+						<li onclick="display(33)" class="button">Climb down the hill towards the mango forest to look for food.</li>
+					</ul>
+				</div>
 			</section>
 			
 		<!-- card 4 -->
 		
 			<section>
-				<p>You have spent the last hour looking for hood and you have found seven very hard coconuts, but no mangos.</p>
-				<ul>
-					<!-- Go to card 25 -->
-					<li onclick="no(25)" class="button">No.</li>
-				</ul>
-					<p>Yes. You can open and eat the coconuts. You feel stronger. Now what do you do?</p>
-				<ul>
-					<!-- Go to card 16 -->
-					<li onclick="eat(16)" class="button">Go left along the beach to look for water.</li>
-					<!-- Go to card 7 -->
-					<li onclick="eat(7)" class="button">Keep loocking for more food.</li>
-				</ul>
+				<div>
+					<img src="./images/card-4.jpg">
+					<p>You have spent the last hour looking for hood and you have found seven very hard coconuts, but no mangos.</p>
+					<ul>
+						<!-- Go to card 25 -->
+						<li onclick="no(25)" class="button">No.</li>
+					</ul>
+						<p>Yes. You can open and eat the coconuts. You feel stronger. Now what do you do?</p>
+					<ul>
+						<!-- Go to card 16 -->
+						<li onclick="eat(16)" class="button">Go left along the beach to look for water.</li>
+						<!-- Go to card 7 -->
+						<li onclick="eat(7)" class="button">Keep loocking for more food.</li>
+					</ul>
+				</div>
 			</section>
 		
 		<!-- card 5 -->
 		
 			<section>
-				<p>The next day is warm and sunny. You must now decide what to do. You won't survive for long on the island, so you need to be rescued within the next couple of days. You have seen one or two ships on the distant horizon already, and 20 minutes ago, a plane flew by, about five miles to the south. There is also another, larger island to the north, about three kilometres away. There is a hill in the centre of the island about 200 metres high. What would you like to do?</p>
-				<ul>
-					<!-- Go to card 10 -->
-					<li onclick="display(10)" class="button">Climb to the top of the hill and build a bonfire to attract attention from planes or ships.</li>
-					<!-- Go to card 14 -->
-					<li onclick="display(14)" class="button">Go into the forest to build a raft. You could use the raft to get to the nearby island or to get closer to a passing ship.</li>
-					<!-- Go to card 12 -->
-					<li onclick="swim()" class="button">Try swimming to the nearby island three kilometres away.</li>
-				</ul>
+				<div>
+					<img src="./images/card-5.jpg">
+					<p>The next day is warm and sunny. You must now decide what to do. You won't survive for long on the island, so you need to be rescued within the next couple of days. You have seen one or two ships on the distant horizon already, and 20 minutes ago, a plane flew by, about five miles to the south. There is also another, larger island to the north, about three kilometres away. There is a hill in the centre of the island about 200 metres high. What would you like to do?</p>
+					<ul>
+						<!-- Go to card 10 -->
+						<li onclick="display(10)" class="button">Climb to the top of the hill and build a bonfire to attract attention from planes or ships.</li>
+						<!-- Go to card 14 -->
+						<li onclick="display(14)" class="button">Go into the forest to build a raft. You could use the raft to get to the nearby island or to get closer to a passing ship.</li>
+						<!-- Go to card 12 -->
+						<li onclick="swim()" class="button">Try swimming to the nearby island three kilometres away.</li>
+					</ul>
+				</div>
 			</section>
 		
 		<!-- card 6 -->
 		
 			<section>
-				<p>There are a lot of mosquitoes and biting insects among the trees. In the middle of the night, you all wake up. One of you has a very serious fever. Is it malaria, or dehydration? You don't know. What do you do? Think carefully about what you have with you.</p>
-				<ul>
-					<!-- Go to card 18 -->
-					<!-- You lose one team member -->
-					<li onclick="lose(18)" class="button">Leave him/her. Try to find the way back to the beach.<br><b><i>(You lose one team member)</i></b></li>
-					<!-- Go to card 20 -->
-					<li onclick="display(20)" class="button">Stay with him/her and try to save him/her.</li>
-				</ul>
+				<div>
+					<img src="./images/card-6.jpg">
+					<p>There are a lot of mosquitoes and biting insects among the trees. In the middle of the night, you all wake up. One of you has a very serious fever. Is it malaria, or dehydration? You don't know. What do you do? Think carefully about what you have with you.</p>
+					<ul>
+						<!-- Go to card 18 -->
+						<!-- You lose one team member -->
+						<li onclick="lose(18)" class="button">Leave him/her. Try to find the way back to the beach.<br><b><i>(You lose one team member)</i></b></li>
+						<!-- Go to card 20 -->
+						<li onclick="display(20)" class="button">Stay with him/her and try to save him/her.</li>
+					</ul>
+				</div>
 			</section>
 			
 		<!-- card 7 -->
 		
 			<section>
-				<p>As you keep searching for food among the trees it begins to get dark.<br>Suddenly, one of you steps on a poisonous snake and is bitten. You lose one team member! How many of you are left? Fortunately, the snake also dies, and you manage to eat it and feel a bit better. </p>
-				<p>You decide to head back to the beach to sleep.</p>
-				<div class="right">
-					<!-- Go to card 18 -->
-					<!-- You lose one team member -->
-					<p onclick="lose(18)" class="button center">Next --></p>
+				<div>
+					<img src="./images/card-7.jpg">
+					<p>As you keep searching for food among the trees it begins to get dark.<br>Suddenly, one of you steps on a poisonous snake and is bitten. You lose one team member! How many of you are left? Fortunately, the snake also dies, and you manage to eat it and feel a bit better. </p>
+					<p>You decide to head back to the beach to sleep.</p>
+					<div class="right">
+						<!-- Go to card 18 -->
+						<!-- You lose one team member -->
+						<p onclick="lose(18)" class="button center">Next --></p>
+					</div>
 				</div>
 			</section>
 			
 		<!-- card 8 -->
 		
 			<section>
-				<p>Using the axe, you make a good raft. It takes about two hours, but at the end you are happy with your work. Now you are both hungry and thirsty? What would you like to do?</p>
-				<ul>
-					<!-- Go to card 24 -->
-					<li onclick="display(24)" class="button">Go back to the stream by the beach to get some water.</li>
-					<!-- Go to card 33 -->
-					<li onclick="display(33)" class="button">Head back towards a mango forest you found earlier to look for food.</li>
-				</ul>
+				<div>
+					<img src="./images/card-8.jpg">
+					<p>Using the axe, you make a good raft. It takes about two hours, but at the end you are happy with your work. Now you are both hungry and thirsty? What would you like to do?</p>
+					<ul>
+						<!-- Go to card 24 -->
+						<li onclick="display(24)" class="button">Go back to the stream by the beach to get some water.</li>
+						<!-- Go to card 33 -->
+						<li onclick="display(33)" class="button">Head back towards a mango forest you found earlier to look for food.</li>
+					</ul>
+				</div>
 			</section>
 			
 		<!-- card 9 -->
 		
 			<section>
-				<p>Half way through the night, your guard falls asleep. Ten minutes later, s/he wakes up and notices a forest pig in the camp. If you had any food, the pig has eaten it. Cross it off your list.<br>The pig runs away. Fortunately, the rest of the night passes without any problems.</p>
-				<div class="right">
-					<!-- Go to card 5 -->
-					<!-- Cross all food off your list -->
-					<p onclick="pig()" class="button center">Next --></p>
+				<div>
+					<img src="./images/card-9.jpg">
+					<p>Half way through the night, your guard falls asleep. Ten minutes later, s/he wakes up and notices a forest pig in the camp. If you had any food, the pig has eaten it. Cross it off your list.<br>The pig runs away. Fortunately, the rest of the night passes without any problems.</p>
+					<div class="right">
+						<!-- Go to card 5 -->
+						<!-- Cross all food off your list -->
+						<p onclick="pig()" class="button center">Next --></p>
+					</div>
 				</div>
 			</section>
 			
 		<!-- card 10 -->
 
 			<section>
-				<p>The climb to the top of the hill is long and difficult. Eventually you arrive, clear a space and manage to break off enough tree branches to prepare a good bonfire. It takes you over four hours and at the end you are very tired, hungry and extremely thirsty. What do you do now?</p>
-				<ul>
-					<!-- Go to card 24 -->
-					<li onclick="display(24)" class="button">Climb down the hill to the stream to get some water.</li>
-					<!-- Go to card 33 -->
-					<li onclick="display(33)" class="button">Climb down the hill towards the mango forest to look for food.</li>
-					<!-- Go to card 3 -->
-					<li onclick="medecine(3)" class="button">Stay at the top of the hill, looking for ships or planes.</li>
-				</ul>
+				<div>
+					<img src="./images/card-10.jpg">
+					<p>The climb to the top of the hill is long and difficult. Eventually you arrive, clear a space and manage to break off enough tree branches to prepare a good bonfire. It takes you over four hours and at the end you are very tired, hungry and extremely thirsty. What do you do now?</p>
+					<ul>
+						<!-- Go to card 24 -->
+						<li onclick="display(24)" class="button">Climb down the hill to the stream to get some water.</li>
+						<!-- Go to card 33 -->
+						<li onclick="display(33)" class="button">Climb down the hill towards the mango forest to look for food.</li>
+						<!-- Go to card 3 -->
+						<li onclick="medecine(3)" class="button">Stay at the top of the hill, looking for ships or planes.</li>
+					</ul>
+				</div>
 			</section>
 		
 		<!-- card 11 -->
 		
 			<section>
-				<p>You each choose different trees to sleep in and fall asleep. Just before dawn, one member of your team falls from a high coconut tree! The coconuts fall on top of him/her. You lose one team member, but you have a lot of coconuts for breakfast!</p>
-				<div class="right">
-					<!-- Go to card 5 -->
-					<!-- You lose one team member -->
-					 <!-- You win a coconuts -->
-					<p onclick="tree()" class="button center">Next --></p>
+				<div>
+					<img src="./images/card-11.jpg">
+					<p>You each choose different trees to sleep in and fall asleep. Just before dawn, one member of your team falls from a high coconut tree! The coconuts fall on top of him/her. You lose one team member, but you have a lot of coconuts for breakfast!</p>
+					<div class="right">
+						<!-- Go to card 5 -->
+						<!-- You lose one team member -->
+						 <!-- You win a coconuts -->
+						<p onclick="tree()" class="button center">Next --></p>
+					</div>
 				</div>
 			</section>
 		
 		<!-- card 12 -->
 		
 			<section>
-				<!-- Note: you lost one of your list items on the swim. Cross it off your list and lose one team member -->
-				<p>Swim for it! You set off from the beach, swimming slowly together.<br>After about one kilometre, the sea gets quite rough and one of you gets into difficulty. You try to help, but it's no good. You lose one team member. How many of you are left? You decide to head back to shore. You arrive on the beach exhausted and must now decide what to do:</p>
-				<ul>
-					<!-- Go to card 10 -->
-					<li onclick="display(10)" class="button">Climb to the top of the hill and build a bonfire to attract attention from planes or ships.</li>
-					<!-- Go to card 14 -->
-					<li onclick="display(14)" class="button">Go into the forest to build a raft. You could use the raft to get to the nearby island or to get closer to a passing ship.</li>
-				</ul>
+				<div>
+					<img src="./images/card-12.jpg">
+					<!-- Note: you lost one of your list items on the swim. Cross it off your list and lose one team member -->
+					<p>Swim for it! You set off from the beach, swimming slowly together.<br>After about one kilometre, the sea gets quite rough and one of you gets into difficulty. You try to help, but it's no good. You lose one team member. How many of you are left? You decide to head back to shore. You arrive on the beach exhausted and must now decide what to do:</p>
+					<ul>
+						<!-- Go to card 10 -->
+						<li onclick="display(10)" class="button">Climb to the top of the hill and build a bonfire to attract attention from planes or ships.</li>
+						<!-- Go to card 14 -->
+						<li onclick="display(14)" class="button">Go into the forest to build a raft. You could use the raft to get to the nearby island or to get closer to a passing ship.</li>
+					</ul>
+				</div>
 			</section>
 		
 		<!-- card 13 -->
 		
 			<section>
-				<!-- Cross the gun off your list and lose one team member -->
-				<p>You shoot three bullets. It falls dead. You cook and eat it, having a really good meal. You feel much better afterwards. Then suddenly, somebody starts to vomit. It's lead poisoning, from the bullets. You lose one team member. How many of you are left?</p>
-				<div class="right">
-					<!-- Go to card 19 -->
-					<p onclick="display(19)" class="button center">Next --></p>
+				<div>
+					<img src="./images/card-13.jpg">
+					<!-- Cross the gun off your list and lose one team member -->
+					<p>You shoot three bullets. It falls dead. You cook and eat it, having a really good meal. You feel much better afterwards. Then suddenly, somebody starts to vomit. It's lead poisoning, from the bullets. You lose one team member. How many of you are left?</p>
+					<div class="right">
+						<!-- Go to card 19 -->
+						<p onclick="display(19)" class="button center">Next --></p>
+					</div>
+					<p><b><i>(Cross the gun off your list)</i></b></p>
 				</div>
-				<p><b><i>(Cross the gun off your list)</i></b></p>
 			</section>
 		
 		<!-- card 14 -->
 		
 			<section>
-				<p>You go into the forest to find some wood to make a raft. Have you got an axe?</p>
-				<ul>
-					<!-- Go to card 8 -->
-					<li onclick="axe()" class="button">Yes.</li>
-					<!-- Go to card 26 -->
-					<li onclick="axe()" class="button">No.</li>
-				</ul>
+				<div>
+					<img src="./images/card-14.jpg">
+					<p>You go into the forest to find some wood to make a raft. Have you got an axe?</p>
+					<ul>
+						<!-- Go to card 8 -->
+						<li onclick="axe()" class="button">Yes.</li>
+						<!-- Go to card 26 -->
+						<li onclick="axe()" class="button">No.</li>
+					</ul>
+				</div>
 			</section>
 			
 		<!-- card 15 -->
 		
 			<section>
-				<!-- You lose one team member -->
-				<p>You leave the fish and spend the next hour walking through the forest looking for food. Suddenly, one of you falls down, unconscious. Is it exhaustion or hunger? You don't know. Unfortunately, you are too weak to try to heal him/her, and you don't have any medicine with you that will help, so you lose one team member. How many of you are left?</p>
-				<div class="right">
-					<!-- Go to card 19 -->
-					<p onclick="lose(19)" class="button center">Next --></p>
+				<div>
+					<img src="./images/card-15.jpg">
+					<!-- You lose one team member -->
+					<p>You leave the fish and spend the next hour walking through the forest looking for food. Suddenly, one of you falls down, unconscious. Is it exhaustion or hunger? You don't know. Unfortunately, you are too weak to try to heal him/her, and you don't have any medicine with you that will help, so you lose one team member. How many of you are left?</p>
+					<div class="right">
+						<!-- Go to card 19 -->
+						<p onclick="lose(19)" class="button center">Next --></p>
+					</div>
 				</div>
 			</section>
 			
 		<!-- card 16 -->
 		
 			<section>
-				<p>After 30 minutes walking, you have found a small stream will fresh water. You drink it and feel refreshed. But now you're very hungry, and tired.<br>What wold you like to do?</p>
-				<ul>
-					<!-- Go to card 4 -->
-					<li onclick="coconut()" class="button">Go and look for coconuts and mangoes among the trees.</li>
-					<!-- Go to card 6 -->
-					<li onclick="display(6)" class="button">Stay by the river and spend the night in the forest.</li>
-					<!-- Go to card 18 -->
-					<li onclick="display(18)" class="button">Walk all the way back to the beach and spend the night there. It will be dark by the time you get back.</li>
-				</ul>
+				<div>
+					<img src="./images/card-16.jpg">
+					<p>After 30 minutes walking, you have found a small stream will fresh water. You drink it and feel refreshed. But now you're very hungry, and tired.<br>What wold you like to do?</p>
+					<ul>
+						<!-- Go to card 4 -->
+						<li onclick="coconut()" class="button">Go and look for coconuts and mangoes among the trees.</li>
+						<!-- Go to card 6 -->
+						<li onclick="display(6)" class="button">Stay by the river and spend the night in the forest.</li>
+						<!-- Go to card 18 -->
+						<li onclick="display(18)" class="button">Walk all the way back to the beach and spend the night there. It will be dark by the time you get back.</li>
+					</ul>
+				</div>
 			</section>
 			
 		<!-- card 17 -->
 		
 			<section>
-				<p>The crossing to the nearby island is lon and dangerous. Half way, your boat begins to break up, and you have to swim the rest of the way, using the pieces of wood to help you. Along the way, one of you gets into trouble and disapears beneath the water. How many of you are left?</p>
-				<p>You make it to the island, and as you come ashore, extremly tired, you notice footprints. You follow then arround the island for 30 minutes, and then... amazinggly you see a hotel. It's an exclusive island holiday resort.</p>
-				<div class="center">
-					<!-- Go to end game -->
-					<h2 onclick="display(34)" class="button center"><i><b>You've survived.Congratulations!</b> Sail for island !</i></h2>
+				<div>
+					<img src="./images/card-17.jpg">
+					<p>The crossing to the nearby island is lon and dangerous. Half way, your boat begins to break up, and you have to swim the rest of the way, using the pieces of wood to help you. Along the way, one of you gets into trouble and disapears beneath the water. How many of you are left?</p>
+					<p>You make it to the island, and as you come ashore, extremly tired, you notice footprints. You follow then arround the island for 30 minutes, and then... amazinggly you see a hotel. It's an exclusive island holiday resort.</p>
+					<div class="center">
+						<!-- Go to end game -->
+						<h2 onclick="display(34)" class="button center"><i><b>You've survived.Congratulations!</b> Sail for island !</i></h2>
+					</div>
 				</div>
 			</section>
 			
 		<!-- card 18 -->
 		
 			<section>
-				<p>You arrive at the beach but it is completely dark. You hear strange noises coming from the bushes. Where and how would you like to sleep?</p>
-				<ul>
-					<!-- Go to card 11 -->
-					<li onclick="display(11)" class="button">All climb up into the trees and try to sleep there.</li>
-					<!-- Go to card 9 -->
-					<li onclick="display(9)" class="button">Sleep on the ground, taking it in turns to guard the camp.</li>
-					<!-- Go to card 23 -->
-					<li onclick="display(23)" class="button">Try sleeping in the warm shallow water.</li>
-				</ul>
-				<p><b><i>What do you have with you? What could happen in the night?</i></b></p>
+				<div>
+					<img src="./images/card-18.jpg">
+					<p>You arrive at the beach but it is completely dark. You hear strange noises coming from the bushes. Where and how would you like to sleep?</p>
+					<ul>
+						<!-- Go to card 11 -->
+						<li onclick="display(11)" class="button">All climb up into the trees and try to sleep there.</li>
+						<!-- Go to card 9 -->
+						<li onclick="display(9)" class="button">Sleep on the ground, taking it in turns to guard the camp.</li>
+						<!-- Go to card 23 -->
+						<li onclick="display(23)" class="button">Try sleeping in the warm shallow water.</li>
+					</ul>
+					<p><b><i>What do you have with you? What could happen in the night?</i></b></p>
+				</div>
 			</section>
 			
 		<!-- card 19 -->
 		
 			<section>
-				<p>You now have the biggest problem to solve. You are feeling very weak and tired, but you really need to keep looking for a way to get off the island.<br>You decide to stay together for safety.<br>You know that you will have a better chance of seeing ships or planes from the top of the hill, but there is no food or water up there. What do you do?<br>If you have a raft:</p>
-				<ul>
-					<!-- Go to card 17 -->
-					<li onclick="raft()" class="button">You could set off for the nearby island.</li>
-					<!-- Go to card 32 -->
-					<li onclick="display(32)" class="button">You could watch for a ship from the beach.</li>
-				</ul>
-				<p>If you have prepared a bonfire at the top of the hill:</p>
-				<ul>
-					<!-- Go to card 30 -->
-					<li onclick="display(30)" class="button">You could go to the top of the hill and wait there</li>
-					<!-- Go to card 32 -->
-					<li onclick="display(32)" class="button">You could go back to the beach and rest, watching from there.</li>
-				</ul>
+				<div>
+					<img src="./images/card-19.jpg">
+					<p>You now have the biggest problem to solve. You are feeling very weak and tired, but you really need to keep looking for a way to get off the island.<br>You decide to stay together for safety.<br>You know that you will have a better chance of seeing ships or planes from the top of the hill, but there is no food or water up there. What do you do?<br>If you have a raft:</p>
+					<ul>
+						<!-- Go to card 17 -->
+						<li onclick="raft()" class="button">You could set off for the nearby island.</li>
+						<!-- Go to card 32 -->
+						<li onclick="display(32)" class="button">You could watch for a ship from the beach.</li>
+					</ul>
+					<p>If you have prepared a bonfire at the top of the hill:</p>
+					<ul>
+						<!-- Go to card 30 -->
+						<li onclick="display(30)" class="button">You could go to the top of the hill and wait there</li>
+						<!-- Go to card 32 -->
+						<li onclick="display(32)" class="button">You could go back to the beach and rest, watching from there.</li>
+					</ul>
+				</div>
 			</section>
 			
 		<!-- card 20 -->
 		
 			<section>
-				<p>Have you got the first aid kit?</p>
-				<ul>
-					<!-- Cross the first aid kit off your list -->
-					<li class="button">Yes. You find antibiotics and aspirin in the kit. You give these to the sick member of the party. He/She gets better rapidity.</li>
-					<!-- You lose one team member -->
-					<li class="button">No. Your colleague getsworse, and loses consciousness. How many of you are left?</li>
-				</ul>
+				<div>
+					<img src="./images/card-20.jpg">
+					<p>Have you got the first aid kit?</p>
+					<ul>
+						<!-- Cross the first aid kit off your list -->
+						<li class="button">Yes. You find antibiotics and aspirin in the kit. You give these to the sick member of the party. He/She gets better rapidity.</li>
+						<!-- You lose one team member -->
+						<li class="button">No. Your colleague getsworse, and loses consciousness. How many of you are left?</li>
+					</ul>
+				</div>
 				<!-- Go to card 5 -->
 				<p onclick="medecine(5)" class="button center">Next --></p>
 			</section>
