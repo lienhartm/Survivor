@@ -1,5 +1,4 @@
 let lives = 3;
-let heart = "";
 
 const sections = document.querySelectorAll('section');
 //console.log(sections);
@@ -20,6 +19,7 @@ function live(lives) {
 		// display the game over screen
 		display(35);
 	}
+    let heart = "";
 	for (let i = 0; i <= lives; i++) {
 		heart += "❤️";
 	}
