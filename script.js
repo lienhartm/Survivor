@@ -1,4 +1,5 @@
 let lives = 3;
+let heart = "";
 
 const sections = document.querySelectorAll('section');
 //console.log(sections);
@@ -20,7 +21,7 @@ function live(lives) {
 		display(35);
 	}
 	for (let i = 0; i <= lives; i++) {
-		let heart += "❤️";
+		heart += "❤️";
 	}
 	heart.replaceAll(""," ");
 	document.getElementById('lives').innerHTML = heart;
