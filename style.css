@@ -21,6 +21,14 @@ main {
     border: 4px outset #DAA520;
 }
 
+.lives-items {
+    width: auto;
+    height: max-content;
+    border: 4px outset #DAA520;
+    display: flex;
+    justify-content: space-around;
+}
+
 section {
     display:none;
     padding: 20px;
