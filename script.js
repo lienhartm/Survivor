@@ -19,14 +19,15 @@ function live(lives) {
 		// display the game over screen
 		display(35);
 	}
-	document.getElementById('lives').innerHTML = lives;
+	for (let i = 0; i <= lives; i++) {
+		let heart += "❤️";
+	}
+	heart.replaceAll(""," ");
+	document.getElementById('lives').innerHTML = heart;
 }
 
 function item() {
-	document.getElementById('items').innerHTML = "";
-	for(let obj of objects) {
-		document.getElementById('items').innerHTML += ` ${obj} -`;
-	}
+	document.getElementById('items').innerHTML = objects.join(" - ");
 }
 
 function screen() {
